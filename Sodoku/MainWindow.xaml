@@ -1,0 +1,30 @@
+﻿<Window x:Class="Sodoku.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Sodoku"
+        Title="MainWindow" Height="355" Width="447" Background="LightCoral">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="297"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="297"/>            
+        </Grid.RowDefinitions>
+
+        <ToolBarPanel Background="LightGoldenrodYellow" Grid.ColumnSpan="2" Orientation="Horizontal">
+        </ToolBarPanel>
+            <UniformGrid Name="outer" Rows="3" Columns="3" Grid.Row="1">
+            <local:smallButtonGrid Name="upperLeft"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="upperMid"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="upperRight"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="middleLeft"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="middleMid"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="middleRight"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="lowerLeft"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="lowerMid"></local:smallButtonGrid>
+            <local:smallButtonGrid Name="lowerRight"></local:smallButtonGrid>
+    </UniformGrid>
+    </Grid>
+</Window>

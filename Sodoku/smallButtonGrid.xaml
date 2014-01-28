@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="Sodoku.smallButtonGrid"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sodoku"
+             mc:Ignorable="d" 
+             d:DesignHeight="99" d:DesignWidth="99">
+    <UniformGrid Columns="3" Rows="3">
+        <local:BasicButton Name="topLeft" BorderBrush="Black" BorderThickness="2, 2, 0.5, 0.5"></local:BasicButton>
+        <local:BasicButton Name="topMid" BorderBrush="Black" BorderThickness="0.5, 2, 0.5, 0.5"></local:BasicButton>
+        <local:BasicButton Name="topRight" BorderBrush="Black" BorderThickness="0.5, 2, 2, 0.5"></local:BasicButton>
+        <local:BasicButton Name="midLeft" BorderBrush="Black" BorderThickness="2, 0.5, 0.5, 0.5"></local:BasicButton>
+        <local:BasicButton Name="midMid" BorderBrush="Black" BorderThickness="0.5, 0.5, 0.5, 0.5"></local:BasicButton>
+        <local:BasicButton Name="midRight" BorderBrush="Black" BorderThickness="0.5, 0.5, 2, 0.5"></local:BasicButton>
+        <local:BasicButton Name="botLeft" BorderBrush="Black" BorderThickness="2, 0.5, 0.5, 2"></local:BasicButton>
+        <local:BasicButton Name="botMid" BorderBrush="Black" BorderThickness="0.5, 0.5, 0.5, 2"></local:BasicButton>
+        <local:BasicButton Name="botRight" BorderBrush="Black" BorderThickness="0.5, 0.5, 2, 2"></local:BasicButton>
+    </UniformGrid>
+</UserControl>
