@@ -53,13 +53,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="BasicButton.xaml.cs">
-      <DependentUpon>BasicButton.xaml</DependentUpon>
+    <Compile Include="baseLabel.xaml.cs">
+      <DependentUpon>baseLabel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="smallButtonGrid.xaml.cs">
-      <DependentUpon>smallButtonGrid.xaml</DependentUpon>
+    <Compile Include="smallGrid.xaml.cs">
+      <DependentUpon>smallGrid.xaml</DependentUpon>
     </Compile>
-    <Page Include="BasicButton.xaml">
+    <Page Include="baseLabel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,7 +75,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="smallButtonGrid.xaml">
+    <Page Include="smallGrid.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

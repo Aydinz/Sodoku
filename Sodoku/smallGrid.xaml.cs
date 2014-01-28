@@ -18,9 +18,9 @@ namespace Sodoku
     /// <summary>
     /// Interaction logic for smallButtonGrid.xaml
     /// </summary>
-    public partial class smallButtonGrid : UserControl
+    public partial class smallGrid : UserControl
     {
-        public smallButtonGrid()
+        public smallGrid()
         {
             InitializeComponent();
         }

@@ -18,9 +18,9 @@ namespace Sodoku
     /// <summary>
     /// Interaction logic for BasicButton.xaml
     /// </summary>
-    public partial class BasicButton : UserControl
+    public partial class baseLabel : UserControl
     {
-        public BasicButton()
+        public baseLabel()
         {
             InitializeComponent();
         }

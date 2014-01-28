@@ -16,15 +16,15 @@
         <ToolBarPanel Background="LightGoldenrodYellow" Grid.ColumnSpan="2" Orientation="Horizontal">
         </ToolBarPanel>
             <UniformGrid Name="outer" Rows="3" Columns="3" Grid.Row="1">
-            <local:smallButtonGrid Name="upperLeft"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="upperMid"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="upperRight"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="middleLeft"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="middleMid"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="middleRight"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="lowerLeft"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="lowerMid"></local:smallButtonGrid>
-            <local:smallButtonGrid Name="lowerRight"></local:smallButtonGrid>
+            <local:smallGrid x:Name="upperLeft"></local:smallGrid>
+            <local:smallGrid x:Name="upperMid"></local:smallGrid>
+            <local:smallGrid x:Name="upperRight"></local:smallGrid>
+            <local:smallGrid x:Name="middleLeft"></local:smallGrid>
+            <local:smallGrid x:Name="middleMid"></local:smallGrid>
+            <local:smallGrid x:Name="middleRight"></local:smallGrid>
+            <local:smallGrid x:Name="lowerLeft"></local:smallGrid>
+            <local:smallGrid x:Name="lowerMid"></local:smallGrid>
+            <local:smallGrid x:Name="lowerRight"></local:smallGrid>
     </UniformGrid>
     </Grid>
 </Window>
