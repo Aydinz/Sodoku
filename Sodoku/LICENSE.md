@@ -1,0 +1,1 @@
+Property of project group "Tindra".
